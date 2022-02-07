@@ -149,6 +149,7 @@ ul {
   color: var(--primary-white-color);
   background-color: #2f303a;
   font-family: Roboto;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -156,6 +157,7 @@ ul {
 
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
