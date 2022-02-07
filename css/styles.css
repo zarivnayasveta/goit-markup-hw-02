@@ -67,7 +67,10 @@ ul {
 /* contact list */
 .contact a {
   color: var(--primary-text-color);
-
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -145,6 +148,10 @@ ul {
 .footer {
   color: var(--primary-white-color);
   background-color: #2f303a;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .footer .link {
@@ -173,6 +180,11 @@ ul {
 }
 .footer .addres-link {
   color: var(--primary-white-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* страница portfolio */
@@ -180,15 +192,25 @@ ul {
 .pagination-list .button {
   color: var(--title-text-color);
   background-color: var(--accent-background-color);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .pagination-list .button.primary {
   color: var(--accent-new-color);
   background-color: var(--accent-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .pagination-list .button:hover {
   background-color: var(--accent-color);
